@@ -19,7 +19,7 @@ compile:
 	$(CXX) $(SRC_DIR)/$(SRC) $(CXXFLAGS) $(MKLFLAGS) -o $(OUTPUT_DIR)/$(OUT)
 
 # 実行ファイルを実行
-run: compile
+run: 
 	./$(OUTPUT_DIR)/$(OUT)
 
 # ヘルプ
