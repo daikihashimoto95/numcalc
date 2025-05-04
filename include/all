@@ -1,1 +1,2 @@
 #include "spin_system.hpp"
+#include "diagonalize.hpp"
