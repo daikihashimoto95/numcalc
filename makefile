@@ -1,6 +1,6 @@
 CXX = g++
 CXXFLAGS = -std=c++23 -O3
-MKLFLAGS = -I $$MKLROOT/include -L $$MKLROOT/lib -lmkl_rt -lpthread -lm
+MKLFLAGS = -I include -I $$MKLROOT/include -L $$MKLROOT/lib -lmkl_rt -lpthread -lm
 
 # ディレクトリ
 SRC_DIR = src

@@ -1,0 +1,26 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++23",
+      "-O3",
+      "-I",
+      "include",
+      "-I",
+      "/opt/intel/oneapi/mkl/2025.0/include",
+      "-I",
+      "/opt/intel/oneapi/umf/0.9/include",
+      "-I",
+      "/opt/intel/oneapi/tbb/2022.0/env/../include",
+      "-I",
+      "/opt/intel/oneapi/mkl/2025.0/include",
+      "-o",
+      "bin/a.out",
+      "src/test.cpp"
+    ],
+    "directory": "/home/daiki/numcalc",
+    "file": "/home/daiki/numcalc/src/test.cpp",
+    "output": "/home/daiki/numcalc/bin/a.out"
+  }
+]
