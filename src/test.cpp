@@ -40,7 +40,7 @@ int main()
     cout<<fixed<<setprecision(15);
 
     cerr<<"preparing hamiltonian..."<<endl;
-    int site_number=12;
+    int site_number=10;
     SpinSystem system(site_number);
     int dimension=system.get_dimension();
     vector<vector<double>> hamiltonian(dimension,vector<double>(dimension,0.0));
